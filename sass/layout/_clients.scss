@@ -27,22 +27,22 @@
     border-radius: 4px;
 
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+&:hover,
+&:focus {
+        border-color: var(--color-in-action);
+        }
+
+&:hover .clients-icon,
+&:focus .clients-icon {
+    fill: var(--color-in-action);
+}
 }
 
 .clients-icon {
     fill: #afb1b8;
 
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.clients-link:hover .clients-icon,
-.clients-link:focus .clients-icon {
-    fill: var(--color-in-action);
-}
-
-.clients-link:hover,
-.clients-link:focus {
-    border-color: var(--color-in-action);
 }
 
 .clients-item {

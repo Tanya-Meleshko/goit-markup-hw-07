@@ -854,7 +854,6 @@ body {
   color: var(--color-text);
   margin-bottom: 30px;
 }
-
 .modal-form-checkbox-lable::before {
   content: "";
   display: block;

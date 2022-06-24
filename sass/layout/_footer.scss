@@ -1,6 +1,5 @@
 .footer {
     background: var(--background-darc);
-
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -19,14 +18,14 @@
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--address-link);
+
+    &:not(:last-child) {
+            margin-bottom: 9px;
+        }
 }
 
 .logo-footer {
     margin-bottom: 20px;
-}
-
-.address-list-item:not(:last-child) {
-    margin-bottom: 9px;
 }
 
 .container-flex {
@@ -50,17 +49,12 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #ffffff;
-
     margin-bottom: 20px;
 }
 
 .social-list-footer {
     display: flex;
     justify-content: center;
-}
-
-.social-item-footer:not(:last-child) {
-    margin-right: 10px;
 }
 
 .social-link-footer {
@@ -71,7 +65,6 @@
     height: 100%;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.102);
-
     transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -87,6 +80,10 @@
 .social-item-footer {
     width: 44px;
     height: 44px;
+
+    &:not(:last-child) {
+            margin-right: 10px;
+        }
 }
 
 .subscription-title {

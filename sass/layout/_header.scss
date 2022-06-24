@@ -45,13 +45,12 @@
     color: var(--color-title);
     padding-top: 32px;
     padding-bottom: 32px;
-
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.navigation-link-item:hover,
-.navigation-link-item:focus {
-    color: var(--color-in-action);
+    &:hover,
+    &:focus {
+            color: var(--color-in-action);
+        }
 }
 
 .contact-link-header-item {
@@ -64,18 +63,12 @@
     color: var(--color-text);
     padding-top: 32px;
     padding-bottom: 32px;
-
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.contact-link-header-item:hover,
-.contact-link-header-item:focus {
-    color: var(--color-in-action);
-}
-
-.contact-link-header-item:hover .icon-header,
-.contact-link-header-item:focus .icon-header {
-    fill: var(--color-in-action);
+    &:hover,
+    &:focus {
+            color: var(--color-in-action);
+        }
 }
 
 .current {
@@ -96,7 +89,11 @@
 .icon-header {
     fill: var(--color-text);
     margin-right: 10px;
-
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    .contact-link-header-item:hover &,
+        .contact-link-header-item:focus & {
+            fill: var(--color-in-action);
+        }
 }
 

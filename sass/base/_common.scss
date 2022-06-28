@@ -11,6 +11,7 @@ ol {
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
+    list-style: none;
 }
 
 img {
@@ -20,4 +21,8 @@ img {
 body {
     font-family: var(--primary-font);
     color: var(--color-text);
+}
+
+a {
+    text-decoration: none;
 }

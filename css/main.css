@@ -394,7 +394,7 @@ a {
   margin-right: 10px;
 }
 
-.clients__title {
+.section__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -404,7 +404,7 @@ a {
   margin-bottom: 50px;
 }
 
-.clients__list {
+.clients {
   display: flex;
   justify-content: center;
 }

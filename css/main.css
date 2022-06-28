@@ -107,7 +107,7 @@ body {
   margin-left: auto;
 }
 
-.header__logo {
+.page-header__logo {
   margin-right: 90px;
   padding-top: 24px;
   padding-bottom: 25px;
@@ -571,7 +571,7 @@ body {
   margin-bottom: 9px;
 }
 
-.logo-footer {
+.footer__logo {
   margin-bottom: 20px;
 }
 

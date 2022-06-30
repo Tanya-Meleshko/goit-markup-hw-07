@@ -24,10 +24,6 @@
         }
 }
 
-.footer__logo {
-    margin-bottom: 20px;
-}
-
 .footer__container {
     display: flex;
     justify-content: space-between;
@@ -52,12 +48,12 @@
     margin-bottom: 20px;
 }
 
-.wrapper-social__social-list {
+.wrapper-social__social-footer {
     display: flex;
     justify-content: center;
 }
 
-.social-list__link {
+.social-footer__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -73,11 +69,11 @@
         }
 }
 
-.social-list__icon {
+.social-footer__icon {
     fill: var(--color-light);
 }
 
-.social-list__item {
+.social-footer__item {
     width: 44px;
     height: 44px;
 

@@ -13,16 +13,10 @@
     align-items: center;
 }
 
-.header__contacts {
+.page-header__contacts {
     display: flex;
     align-items: center;
     margin-left: auto;
-}
-
-.page-header__logo {
-    margin-right: 90px;
-    padding-top: 24px;
-    padding-bottom: 25px;
 }
 
 .navigation-list__item:not(:last-child),

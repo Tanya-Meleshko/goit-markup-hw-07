@@ -19,9 +19,7 @@
 }
 
 .section__title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
+    @include font(700, 36px, 42px);
     letter-spacing: 0.03em;
     color: var(--color-title);
 
@@ -30,9 +28,7 @@
 }
 
 .our-team__title {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
+    @include font(500, 16px, 19px);
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--color-title);

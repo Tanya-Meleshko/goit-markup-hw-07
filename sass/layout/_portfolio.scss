@@ -1,8 +1,6 @@
 .service-list__button {
     border: none;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
+    @include font(500, 16px, 26px);
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--color-title);
@@ -37,9 +35,7 @@
 }
 
 .catalog-list__title {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
+    @include font(700, 18px, 36px);
     letter-spacing: 0.06em;
     color: var(--color-title);
     margin-bottom: 4px;

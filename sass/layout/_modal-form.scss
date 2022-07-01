@@ -4,9 +4,7 @@
 }
 
 .backdrop__modal-form-title {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 1.15;
+    @include font(700, 20px, 23px);
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--color-title);
@@ -39,9 +37,7 @@
 
 .backdrop__modal-form-field-key {
     display: block;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.17;
+    @include font(400, 12px, 14px);
     letter-spacing: 0.01em;
     color: var(--color-text);
     margin-bottom: 4px;
@@ -119,18 +115,14 @@
 }
 
 .backdrop__modal-form-checkbox-link {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
+    @include font(400, 14px, 24px);
     letter-spacing: 0.03em;
     text-decoration-line: underline;
     color: var(--color-in-action);
 }
 
 .backdrop__modal-form-btn {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
+    @include font(700, 16px, 30px);
     color: var(--color-light);
     background: var(--color-in-action);
     cursor: pointer;

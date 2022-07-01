@@ -29,9 +29,7 @@
 }
 
 .features__card {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %align;
     height: 120px;
     background: var(--background-light);
     border-radius: 4px;
